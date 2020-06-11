@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.img-background {
+  background-image: linear-gradient(to bottom right, #ee6e73, #64aea5);
+}
+
+.button-margin {
+  margin-right: 15px !important;
+}
+
+.sidebar-title {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+a.active {
+  margin-right: 40px;
+  background-color: #ffcdd2;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 0 0 8px 0 rgb(235, 197, 197);
+}
+
+.sidenav li > a.active:hover {
+  background-color: #ffcdd2;
+}
+
+.sidenav li > a > i.material-icons {
+  margin-right: 10px !important;
+}
+
+.card-styles {
+  max-height: 600px;
+  overflow-x: hidden;
+}
+
+.modal-button-possition {
+  position: relative;
+  top: -40px;
+  float: right;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+} 
+
+::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+  border-radius: 50px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  border-radius: 50px;
+}
